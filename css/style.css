@@ -33,7 +33,6 @@ aside,
   width: 30%;
 }
 
-.charDetailsTitle {}
 
 .charDetailsPerson {
   float: left;
@@ -69,7 +68,7 @@ aside,
 
 .charDetailsInputText {
   font-style: italic;
-  color: yellowgreen;
+  color: red;
   height: 3rem;
   opacity: .2;
   left: 0;
@@ -79,7 +78,7 @@ aside,
 .charDetailsInputButton {
   background-image: url("../assets/pictures/searchbutton2.jpg");
   border: 1px solid #c6c9ce;
-  color: yellowgreen;
+  color: red;
   height: 3.35rem;
   right: 0;
   width: 29%;
@@ -89,40 +88,3 @@ aside,
   position: relative;
 }
 
-#aside__img {
-  /* height: */
-  margin-top: 2rem;
-  position: absolute;
-  width: 100%;
-}
-
-#aside__name {
-  left: 1rem;
-  position: absolute;
-  text-align: left;
-  top: 15rem;
-  width: 100%;
-}
-
-#aside__house {
-  position: absolute;
-  right: 1rem;
-  text-align: right;
-  top: 15rem;
-  width: 100%;
-}
-
-#aside__bio {
-  margin: 1rem;
-  position: absolute;
-  text-align: justify;
-  top: 19rem;
-  width: 90%;
-}
-
-#aside__div__p {
-  color: white;
-  margin-top: 2rem;
-  text-align: center;
-  width: 100%;
-}
