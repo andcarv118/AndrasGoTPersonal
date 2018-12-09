@@ -1,4 +1,6 @@
 body {
+  float: left;
+  font-family:'Cinzel Decorative',cursive;
   margin: 0 auto;
   position: relative;
   width: 100%;
@@ -8,22 +10,119 @@ body {
 section {
   background-image: url("../assets/site/mapblue.jpg");
   float: left;
+  height: 1600px;
+  position: relative;
   width: 70%;
-  height: 100%;
 }
 
-aside {
+.charName {
+  text-align: center;
+}
+
+/* aside {
+  height:1400px;
+} */
+
+aside,
+.charDetails {
   background: rgb(54, 54, 54);
   color: white;
   float: left;
-  width: 30%;
   height: 100%;
+  position: relative;
+  width: 30%;
 }
+
+.charDetailsTitle {}
 
 .charDetailsPerson {
   float: left;
+  height: 200px;
   margin: 0 auto;
   position: relative;
   width: 12%;
-  height: 200px;
+}
+
+.charDetailsPerson:hover {
+  color: white;
+  background: rgb(54, 54, 54);
+
+}
+
+.charDetails {
+  bottom: 0;
+  color: white;
+  height: 100rem;
+  margin-left: 3rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+
+}
+
+.charDetailsInputText,
+.charDetailsInputButton {
+  bottom: 0;
+  position: absolute;
+}
+
+.charDetailsInputText {
+  font-style: italic;
+  color: yellowgreen;
+  height: 3rem;
+  opacity: .2;
+  left: 0;
+  width: 70%;
+}
+
+.charDetailsInputButton {
+  background-image: url("../assets/pictures/searchbutton2.jpg");
+  border: 1px solid #c6c9ce;
+  color: yellowgreen;
+  height: 3.35rem;
+  right: 0;
+  width: 29%;
+}
+
+.charDetailsInfo {
+  position: relative;
+}
+
+#aside__img {
+  /* height: */
+  margin-top: 2rem;
+  position: absolute;
+  width: 100%;
+}
+
+#aside__name {
+  left: 1rem;
+  position: absolute;
+  text-align: left;
+  top: 15rem;
+  width: 100%;
+}
+
+#aside__house {
+  position: absolute;
+  right: 1rem;
+  text-align: right;
+  top: 15rem;
+  width: 100%;
+}
+
+#aside__bio {
+  margin: 1rem;
+  position: absolute;
+  text-align: justify;
+  top: 19rem;
+  width: 90%;
+}
+
+#aside__div__p {
+  color: white;
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
 }
